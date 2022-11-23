@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        table {
+            width: 400px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.4em;
+            font-weight: bold;
+            background-color: lightblue;
+            padding: 7px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center;
+        }
+
+        th { 
+            background-color: lightgray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+
+    <table>
+        <caption>
+            Habitantes Brasil
+        </caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th style="width: 50px;">Estado</th>
+                <th style="width: 100px;">Telefone</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td>Diogo</td>
+                <td>SC</td>
+                <td>0000-0000</td>
+            </tr>
+            <tr>
+                <td>Werton</td>
+                <td>PB</td>
+                <td>0000-0000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total:</th>
+                <td></td>
+                <td>02</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
